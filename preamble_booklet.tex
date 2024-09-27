@@ -23,11 +23,11 @@
 \definecolor{mywhite}{RGB}{235, 238, 231}
 \definecolor{myblue}{RGB}{0,102,79}		% SLU green
 \definecolor{myred}{RGB}{111,38,61}		% SLU red
-\definecolor{mygreen}{RGB}{196,214,0 }		% SLU green äpple
-\definecolor{myyellow}{RGB}{252,227,0 }		% SLU green majs
+\definecolor{SBWgreen}{RGB}{83, 145, 128 }		% SBW green $sbw-green: #539180;
+\definecolor{SBWpink}{RGB}{150, 67, 90 }		% SBW pibk:  #96435A;
 
-\newcommand{\primarycolor}{myblue}
-\newcommand{\secondarycolor}{myred}
+\newcommand{\primarycolor}{SBWgreen}
+\newcommand{\secondarycolor}{SBWpink}
 \newcommand{\ternarycolor}{mywhite}
 
 %
@@ -203,13 +203,13 @@
 \newcommand{\tbc}{gray!25}
 
 % talk types colors
-\newcommand{\IScolor}{mygreen} % invited speaker
+\newcommand{\IScolor}{SBWgreen} % invited speaker
 \newcommand{\CTcolor}{white} % contributed talk
 
 
 % row types
 \newcommand{\tablebreak}[2]{% {time span}{break name}
-	\rowcolor{myyellow} #1 &  \multicolumn{3}{c|}{\bfseries #2} \\ \hline }
+	\rowcolor{SBWpink} #1 &  \multicolumn{3}{c|}{\bfseries #2} \\ \hline }
 \newcommand{\eventtype}[2]{% {time span}{event name}
 	#1& \multicolumn{3}{c|}{\cellcolor{\tbg}\color{\tfg}\bfseries #2} \\ \hline }
 
